@@ -1,0 +1,60 @@
+background(8, 51, 8);
+noStroke();
+draw = function() {
+    
+    //Correct
+    fill(0, 255, 234);
+    ellipse(mouseX, mouseY, 70, 93);
+    
+    fill(255, 234, 0); 
+    ellipse(mouseX, mouseY, 34, 150);
+    
+    fill(21, 255, 0);
+    ellipse(mouseX, mouseY, 10, 10);
+    
+    //Incorrect
+    fill(255, 0, 255);
+    ellipse(mouseY, mouseX, 116, 52);
+    
+    fill(0, 247, 255);
+    ellipse(mouseY, mouseX, 10, 10);
+    
+    fill(255, 119, 0);
+    ellipse(mouseY, mouseX, 4, 73);
+    
+    //Only Y
+    fill(255, 0, 166);
+    ellipse(mouseY, mouseY, 135, 65);
+    
+    fill(0, 255, 60);
+    ellipse(mouseY, mouseY, 12, 125);
+    
+    fill(0, 255, 234); 
+    ellipse(mouseY, mouseY, 23, 15); 
+    
+    //Only X
+    fill(0, 255, 140);
+    ellipse(mouseX, mouseX, 117, 66);
+    
+    fill(162, 0, 255);
+    ellipse(mouseX, mouseX, 72, 47);
+    
+    fill(255, 178, 234);
+    ellipse(mouseX, mouseX, 197, 7);
+    
+    //Random Dots
+    fill(0, 21, 255);
+    ellipse(mouseY + 65, mouseX + 156, 10, 10);
+    
+    fill(255, 0, 0);
+    ellipse(mouseX + 33, mouseY + 55, 10, 20);
+    
+    fill(252, 176, 242);
+    ellipse(mouseY + 45, mouseX + 230 + 10, 10, 32);
+    
+    fill(0, 204, 255);
+    ellipse(mouseX + 345, mouseX, 10, 10); 
+    
+      
+};
+
