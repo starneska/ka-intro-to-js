@@ -1,3 +1,4 @@
+
 background(8, 51, 8);
 noStroke();
 draw = function() {
@@ -56,5 +57,61 @@ draw = function() {
     ellipse(mouseX + 345, mouseX, 10, 10); 
     
       
+
+
+  //Correct
+    fill(0, 255, 234);
+    rect(mouseX + 100, mouseY, 70, 93);
+    
+    fill(255, 234, 0); 
+    rect(mouseX + 100, mouseY, 34, 150);
+    
+    fill(21, 255, 0);
+    rect(mouseX + 100, mouseY, 10, 10);
+    
+    //Incorrect
+    fill(255, 0, 255);
+    rect(mouseY + 100, mouseX, 116, 52);
+    
+    fill(0, 247, 255);
+    rect(mouseY + 100, mouseX, 10, 10);
+    
+    fill(255, 119, 0);
+    rect(mouseY + 100, mouseX, 4, 73);
+    
+    //Only Y
+    fill(255, 0, 166);
+    rect(mouseY + 100, mouseY, 135, 65);
+    
+    fill(0, 255, 60);
+    rect(mouseY + 100, mouseY, 12, 125);
+    
+    fill(0, 255, 234); 
+    rect(mouseY + 100, mouseY, 23, 15); 
+    
+    //Only X
+    fill(0, 255, 140);
+    rect(mouseX + 100, mouseX, 117, 66);
+    
+    fill(162, 0, 255);
+    rect(mouseX + 100, mouseX, 72, 47);
+    
+    fill(255, 178, 234);
+    rect(mouseX + 100, mouseX, 197, 7);
+    
+    //Random Dots
+    fill(0, 21, 255);
+    rect(mouseY + 165, mouseX + 156, 10, 10);
+    
+    fill(255, 0, 0);
+    rect(mouseX + 133, mouseY + 55, 10, 20);
+    
+    fill(252, 176, 242);
+    rect(mouseY + 145, mouseX + 230 + 10, 10, 32);
+    
+    fill(0, 204, 255);
+    rect(mouseX + 400, mouseX, 10, 10); 
+    textSize(15);
+ text("Replace This Gross Green With Bright Colors!!", 46, 200);
 };
 
